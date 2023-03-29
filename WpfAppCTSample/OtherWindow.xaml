@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfAppCTSample.OtherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppCTSample"
+        mc:Ignorable="d"
+        Title="OtherWindow" SizeToContent="WidthAndHeight" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Width="300" Margin="10">
+            <Label Content="İkinci Pencere Burada" Padding="5"/>
+            <Label Content="{Binding SendingParameter}" Padding="5"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>
